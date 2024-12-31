@@ -1,6 +1,13 @@
+import Slider from '../app/components/Slider';
+import Featured from '../app/components/Featured';
+import Offer from '../app/components/Offer';
 
 export default function Home() {
   return (
-     <div>Hello World</div> 
+     <main>
+      <Slider />
+      <Featured />
+      <Offer />
+     </main>
   );
 }
